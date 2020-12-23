@@ -1,3 +1,3 @@
-# hello-world
-trying out the repository
-powered by tea and star wars 
+# little projects
+just some small things to try out the repository
+
