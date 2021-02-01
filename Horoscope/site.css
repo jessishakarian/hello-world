@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body {
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Prata', 'sans serif';
+    background: url('https://pbs.twimg.com/media/ETk26D9WsAE4kAL?format=jpg&name=large') 
+    no-repeat center center/cover;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+input, button {
+
+    width: 20%;
+}  
+
+#signChar {
+    background-color:#cc5a5a;
+    float:inherit;
+    max-width: 15%;
+    font-size: 2rem;
+    color: #000;
+    margin: 0 auto;
+}
+
+#description {
+    width: 41%;
+    float: left;
+    background-color:#cc5a5a;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+#pic {
+    margin-left: 10%;
+    width: 44%;
+    float: left;
+    overflow: auto;
+}
+
+img {
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+
+    body {
+      background-position: center;
+      background-size: cover;
+    }
+
+h1 {
+    font-size: 2rem;
+    color: #000;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    margin-top: 60px;
+    }
+
+h2 {
+    font-size: 1.5rem;
+    }
+    
+input{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    }
+
+#month {
+        margin-left: 8%;
+        margin-right: 4%;
+    }
+
+input + button {
+        width: 50%;
+        float: left;
+        margin: 20px 25%;
+    }
+
+#signChar {
+        overflow:hidden;
+        font-size: 1.2rem;
+        clear: both;
+    }
+
+#description {
+        font-size: 1rem;
+        float: left;
+        width: 40%;
+        margin-right: 5%;
+     }
+
+#pic {
+        float: left;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 40%;
+    }
+   
+img {
+        float: left;
+        max-width: 100%;
+        max-height: 100%;
+    } 
+}   

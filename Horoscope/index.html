@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div>
+        <h1>What is your Schitt's Creek character astrology sign?</h1>
+    </div>
+
+    <div>
+        <h2>Enter your birthday to find out!</h2>
+    </div>
+    <input id="month" type="number" min="1" max="12" placeholder="Month">
+    <input id="day" type="number" min="1" max="31" placeholder="Day">
+    <button id="button" onclick="zodiacChoose()" type="button" name="button">Find out your character!</button>  
+
+    <p id="signChar">Love this journey for me.</p>
+    <p id="pic"></p>
+    <p id="description"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
